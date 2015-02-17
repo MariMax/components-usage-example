@@ -4,6 +4,8 @@
   "description": "Example of using components library",
   "main": "src/app/app.js",
   "scripts": {
+    "build": "webpack -p --devtool sourcemap",
+    "start": "webpack-dev-server -d --port 9000 --colors --progress --content-base ./dist",
     "test": "karma start"
   },
   "repository": {
@@ -17,6 +19,14 @@
   },
   "homepage": "https://github.com/huston007/components-usage-example",
   "dependencies": {
-    "components-example": "git://github.com/huston007/components-example"
+    "components-example": "git://github.com/huston007/components-example",
+    "html-webpack-plugin": "^1.1.0",
+    "webpack-config-merger": "0.0.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "jshint-loader": "^0.8.2",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.6.5"
   }
 }
