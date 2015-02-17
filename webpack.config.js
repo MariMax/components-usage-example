@@ -25,5 +25,3 @@ module.exports = webpackConfigMerger(require('components-example/webpack.config'
         })
     ]
 });
-
-console.log(module.exports.module.loaders);
