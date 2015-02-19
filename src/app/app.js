@@ -1,4 +1,4 @@
-require('./app.scss');
+require('./app.css');
 var React = require('react');
 
 var PlainJsComponent = require('plain-js/plain-js');
