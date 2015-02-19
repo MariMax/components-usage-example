@@ -7,7 +7,7 @@ var SomeJsx = require('some-jsx/some-jsx.jsx');
 require('static/static');
 
 var RenderExampleComponents = function () {
-    var plain = new PlainJsComponent();
+    var plain = new PlainJsComponent('Example');
     plain.renderInto(document.getElementById('app__awesome'));
 
     React.render(
