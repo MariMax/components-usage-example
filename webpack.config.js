@@ -21,7 +21,7 @@ module.exports = webpackConfigMerger(require('components-example/webpack.config'
     },
     plugins : [
         new HtmlWebpackPlugin({
-            template: 'src/index.html'
+            template: './src/index.html'
         })
     ]
 });
