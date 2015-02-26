@@ -2,11 +2,11 @@
 .app {
   margin: 20px;
   text-align: center;
-  line-height: 40px;
+  line-height: 60px;
   font-family: 'Helvetica Neue', Arial;
 }
 
 .app__static {
-  font-size: 24px;
+  font-size: 32px;
   font-family: StaticFont;
 }
